@@ -76,7 +76,7 @@ Connections:
                                     be 74HC595 D0 --- D7 SN76489
                                        74HC595 D1 --- D6 SN76489 etc
     Oscillator P7          GND      To common ground with all other GND pins
-    Oscillator P8          CLK      SN76489 pin 16
+    Oscillator P8          CLK      SN76489 pin 14
     Audio out              AUDIO    SN76489 pin 7 to an external amplifier,
                                     or a piezo sounder through a 1K resistor
     +5V                    VCC      Both ICs, pin 16, Oscillator pin 14; all
