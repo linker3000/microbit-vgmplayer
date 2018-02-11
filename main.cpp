@@ -34,7 +34,7 @@ External circuitry is needed to make this work:
 
 1 x BBC micro:bit breakout board (eg: Kitronik) to get to the required pins
 1 x SN74HC595 shift register IC - easy to obtain
-1 x SN76489 programmable sound generator (PSG) IC (From a reputable[!]
+1 x SN76489N programmable sound generator (PSG) IC (From a reputable[!]
     supplier. You can get them on Ebay and elsewhere but beware of fakes.
 2 x 0.1uF ceramic capacitors
 1 x 4MHz oscillator module - the connections list below assumes a '14-pin'
