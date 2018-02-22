@@ -5,8 +5,8 @@ This circuit interfaces the micro:bit to the SN76489N Programmable Sound Generat
 
 NB: Microbit wiring has changed - diagram needs updating:
 
-SRCLK is now Microbit_P13
-RCLK  is now Microbit_P1
+* SRCLK is now Microbit_P13
+* RCLK  is now Microbit_P1
 
 ![Image](microbit-vgmplayer.png)
 
