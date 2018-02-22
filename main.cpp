@@ -67,9 +67,9 @@ Connections:
 
     From                 Function      Connect to
     micro:bit P15          MOSI     74HC595 pin 14 (SER)
-    micro:bit P13          CE       74HC595 pin 12 (RCLK)
-    micro:bit P2           SER      74HC595 pin 11 (SRCLK)
-    micro:bit P8           PSG ~WE  SN76489 pin 5 (~WE)
+    micro:bit P13          SCK      74HC595 pin 11 (SRCLK)
+    micro:bit P1           CE       74HC595 pin 12 (RCLK)
+    micro:bit P8           PSG ~WE  SN76489N pin 5 (~WE)
     74HC595 Data out       Data bus PSG Data lines - Note that the PSG data
                                     lines are labelled in REVERSE, so the
                                     wiring between the 595 and the 76489 should
@@ -109,7 +109,7 @@ uint16_t vgmpos = 0;
 
 // Microbit SPI port setup
 // Using the default SPI pins defined in the micro:bit docs...
-SPI spi(mbit_p15, mbit_p14, mbit_p13); // mosi, miso (not used), sclk
+SPI spi(mbit_p15, mbit_p14, mbit_p13); // mosi, miso (not used), sck
 DigitalOut cs(mbit_p1);     //Chip select pin for the shift register
 DigitalOut PSG_WE(mbit_p8); //~WE pin for PSG
 
