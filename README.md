@@ -1,5 +1,5 @@
 # microbit-vgmplayer
-This code plays BBC micro (SN76489) VGM sound files on a BBC micro:bit - with the help of some external circuitry.
+This code plays BBC micro (SN76489) VGM sound files on a BBC micro:bit - with the help of some external circuitry. The code was developed on the MBED platform: https://os.mbed.com/users/linker3000/code/Microbit-VGM/ 
 
 This circuit interfaces the micro:bit to the SN76489N Programmable Sound Generator (PSG) using the micro:bit's SPI port and code library:
 
